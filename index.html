@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт-Визитка Блажко Никиты</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+      <img class="header__background" src="images/фон_компутер.jpg" alt="header__background">
+      
+      <div class="header__background-wrapper"></div>
+
+
+      <div class="header-top">
+  <a href="" class="logo">Блажко Никита</a>
+    <nav class="navigation">
+           <ul class="menu">
+              <li class="menu-element">
+                <a class="menu-element__link active" href="">Домой</a>
+              </li>
+              <li class="menu-element">
+                <a class="menu-element__link" href="">Обо мне</a>
+              </li>
+              <li class="menu-element">
+                <a class="menu-element__link" href="">Скиллы</a>
+              </li>
+              <li class="menu-element">
+                <a class="menu-element__link" href="">Книги</a>
+              </li>
+              <li class="menu-element">
+                <a class="menu-element__link" href="">Контакты</a>
+              </li>              
+            </ul>
+    </nav>
+</div>
+
+    <div class="header-center">
+      <div class="header-center__wrapper">
+         <h1 class="name">Блажко&nbsp;Никита</h1>
+         <p class="description">Привет! Меня зовут Никита. Я начинающий веб-разработчик, давайте знакомиться!</p>
+      </div>
+    </div>
+  </header>
+   
+  <section class="about-me"></section>
+    <div class="left">
+      <img src="" alt="фотография">
+    </div>
+    <div class="right">
+      <p class="about-me__title">Блажко Никита Алексеевич</p>
+      <p class="about-me__description">Я начинающий веб-разработчик, а также студент. На данный момент обучаюсь на первом курсе в Донецкой академии управления и государственной службы на направлении 
+        &laquo;Прикладная информатика&raquo;. Помимо этого я увлекаюсь разными хобби и оттачиваю навыки в разных направлениях, но в первую очередь в программировании!
+      </p>
+      <p class="about-me__description">Впервые я познакомился с программированием в школе, тогда наш учитель информатики впервые познакомил нас с первым в нашей жизни языком 
+        программирования Pascal, тогда нас учили решать задачи используя данный язык программирования. После 
+      этого я крайне заинтересовался программированием и начал изучать сначала Pascal, а потом уже и поступил в университет и начал более погружаться в эту сферу </p>
+      <p class="about-me__description">Углубляясь в тему программирования я узнал множество разных языков программирования и на данный момент меня больше всего привлекает Python, JavaScript и С#
+      </p>
+</p>
+    <ul class="about-me__extra">
+      <li class="about-me__extra-element"><span class="bold">Дата рождения:</span> <span>12.09.2006</span></li>
+      <li class="about-me__extra-element"><span class="bold">Адрес:</span> <span>г. Макеевка, Донецкая Народная Республика, Россия</span></li>
+      <li class="about-me__extra-element"><span class="bold">Образование:</span> <span>обучение на первом курсе в ДонАУИГС (г. Донецк)</span></li>
+    </ul>
+    </div>
+      <section class="skills">
+      <h2 class="second-title">Навыки</h2>
+       
+      <p class="section-description">Все оценки являются субъективными и показывают уровень, которым по моему мнению я владею</p>
+      
+     <ul class="skill-filters">
+      <li class="skill-filter">Все</li>
+     </ul>
+     
+     <div class="skills-wrapper">
+          <ul class="skills-list left">
+            <li class="skills-list__element">Html/Css</li>
+            <li class="skills-list__element">Python</li>
+            <li class="skills-list__element">C#</li>
+            <li class="skills-list__element">C++</li>
+           </ul>
+
+          <div class="skill-card right">
+            <div class="skill-card__title">
+              <img src="" alt="" class="skill-card__image" />
+              <span class="skill-card__name">Html/Css</span>
+            </div>
+
+            <div class="skill-card__progress">
+              <span class="skill-card__progress-percent">30%</span>
+              <div class="skill-card__progress-bar"></div>
+             </div>
+
+             <p class="skill-card__description">Мне очень нравится Html/css это очень интересный и от части простой язык программирования 
+              с очень огромным пространством для творчества, 
+              но в нем нужно уметь держать порядок в коде и не смотря на простоту уметь ориентироваться в среде</p>
+             
+          </div>
+       
+    <section class="books">
+      <h2 class="second-title">Прочитанные книги</h2>
+      <p class="section-description">Тут указаны не все книги которые я прочитал, а лишь самые интересные по-моему мнению</p>
+     <ul class="books-list">
+      <li class="books-list__element">Книга 1</li>
+      <li class="books-list__element">Книга 2</li>
+      <li class="books-list__element">Книга 3</li>
+      <li class="books-list__element">Книга 4</li>
+      <li class="books-list__element">Книга 5</li>
+     </ul>
+    </section>
+
+     </div>
+    </section>
+       <section class="contact-me">
+        <h2 class="second-title">Обратная связь</h2>
+          
+        <form action="" class="contact-me__form">
+             <div class="input-wrapper">
+               <label class="label" for="">Имя</label>
+               <input class="input" type="text" id="name" required/>
+             </div>
+             <div class="input-wrapper">
+               <label class="label" for="email">E-mail</label>
+               <input class="input" type="email" id="email" required/> 
+             </div>
+
+             <div class="textarea-wrapper">
+                <label for="" class="label">Сообщение</label>
+                <textarea class="textarea" name="message" id="message" cols="30" rows="10" required></textarea>
+              </div>
+
+              <button type="submit" class="submit">Отправить</button>
+          </form>
+
+            <ul class="socials">
+                <li class="social-element">
+                 <a href="https://vk.com/guitaristl" class="social-element__link">VK</a>
+                </li>
+                <li class="social-element">
+                <a href="https://t.me/nikitablago" class="social-element__link">TG</a>
+                </li>
+            </ul>
+        </section>
+      
+       <footer>
+      <p class="footer-about">©&nbsp;Блажко Никита&nbsp;2024&nbsp; </p>
+       </footer>
+</body>
+</html>
